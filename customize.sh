@@ -42,6 +42,11 @@ REPLACE_EXAMPLE="
 # Construct your own list here
 REPLACE="
 /system/vendor/etc/thermal-engine.conf
+/system/vendor/etc/perf/commonresourceconfigs.xml
+/system/vendor/etc/perf/perfboostsconfig.xml
+/system/vendor/etc/perf/perfconfigstore.xml
+/system/vendor/etc/perf/targetconfig.xml
+/system/vendor/etc/perf/targetresourceconfigs.xml
 "
 
 ##########################################################################################
@@ -58,6 +63,11 @@ set_permissions() {
   # set_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
   
   # set_perm_recursive $MODPATH/system/vendor/etc/thermal-engine.conf 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/vendor/etc/perf/commonresourceconfigs.xml 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/vendor/etc/perf/perfboostsconfig.xml 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/vendor/etc/perf/perfconfigstore.xml 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/vendor/etc/perf/targetconfig.xml 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/vendor/etc/perf/targetresourceconfigs.xml 0 0 0755 0644
 
   # For files (not in directories taken care of above)
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)

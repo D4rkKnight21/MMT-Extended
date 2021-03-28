@@ -2,7 +2,7 @@
 # Example: Change dpi
 # ro.sf.lcd_density=320
 
-#Rendering
+#GL Skia Render
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.hwui.use_vulkan=true

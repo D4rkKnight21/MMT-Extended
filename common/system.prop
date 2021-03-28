@@ -1,0 +1,24 @@
+# This file will be read by resetprop
+# Example: Change dpi
+# ro.sf.lcd_density=320
+
+#Rendering
+ro.hardware.egl=adreno
+ro.hardware.vulkan=adreno
+ro.hwui.use_vulkan=true
+debug.hwui.renderer=skiagl
+debug.egl.hw=1
+debug.enable.sglscale=1
+debug.sf.disable_hwc=0
+debug.sf.gpu_comp_tiling=1
+debug.sf.recomputecrop=0
+persist.hwc.ptor.enable=true
+debug.performance.tuning=1
+video.accelerate.hw=1
+ro.config.disable_hw_accel=false
+media.stagefright.enable-record=true
+media.stagefright.enable-http=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-meta=true
+debug.composite.type=gpu
+debug.sf.hw=1

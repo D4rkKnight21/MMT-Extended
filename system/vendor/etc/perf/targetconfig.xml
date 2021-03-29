@@ -43,10 +43,10 @@
     <Config1>
 
          <TargetInfo
-             Target="sdm660"
+             Target="msm8953"
              NumClusters="2"
              TotalNumCores="8"
-             SocIds="317,324,345,346"
+             SocIds="293,304,338,351,349,350"
              SynCore="1"
              CoreCtlCpu="4"
              CpufreqGov="1"

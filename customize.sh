@@ -71,7 +71,8 @@ set_permissions() {
 
   # For files (not in directories taken care of above)
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
-  
+  # set_perm $MODPATH/system/etc/opperf.xml 0 0 0755 0644
+  # set_perm $MODPATH/system/etc/ramboost.xml 0 0 0755 0644
 }
 
 ##########################################################################################

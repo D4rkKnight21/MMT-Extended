@@ -68,11 +68,13 @@ set_permissions() {
   # set_perm_recursive $MODPATH/system/vendor/etc/perf/perfconfigstore.xml 0 0 0755 0644
   # set_perm_recursive $MODPATH/system/vendor/etc/perf/targetconfig.xml 0 0 0755 0644
   # set_perm_recursive $MODPATH/system/vendor/etc/perf/targetresourceconfigs.xml 0 0 0755 0644
+  # set_prem_recursive $MODPATH/system/etc/permission/handheld_core_hardware.xml 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/etc/opperf.xml 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/etc/ramboost.xml 0 0 0755 0644
 
   # For files (not in directories taken care of above)
   # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
-  # set_perm $MODPATH/system/etc/opperf.xml 0 0 0755 0644
-  # set_perm $MODPATH/system/etc/ramboost.xml 0 0 0755 0644
+  
 }
 
 ##########################################################################################

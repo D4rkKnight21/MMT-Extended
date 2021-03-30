@@ -18,7 +18,7 @@
 
 ##########################################################################################
 #                                Tissot-Max
-#                                    v1
+#                                    v2
 #                       Reach your maximum performance
 #
 #           We are not responsible for future damage to your device

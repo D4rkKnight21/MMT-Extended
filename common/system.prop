@@ -22,3 +22,9 @@ media.stagefright.enable-scan=true
 media.stagefright.enable-meta=true
 debug.composite.type=gpu
 debug.sf.hw=1
+
+#Improve touch response
+view.touch_slop=1
+view.scroll_friction=0
+ro.max.fling_velocity=10000
+ro.min.fling_velocity=7500

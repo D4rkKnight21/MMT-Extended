@@ -16,3 +16,16 @@ then
   write "/sys/module/touchpaint/parameters/brush_size" 0
   write "/sys/module/touchpaint/parameters/follow_box_size" 321
 fi
+
+# CPU Boost
+echo '0' > /sys/devices/system/cpu/isolated;
+echo '0' > /sys/devices/system/cpu/offline;
+echo '0' > /sys/devices/system/cpu/uevent;
+echo '1' > /sys/devices/system/cpu/cpufreq/policy0/schedutil/iowait_boost_enable;
+echo '1' > /sys/devices/system/cpu/cpufreq/policy4/schedutil/iowait_boost_enable;
+echo '902400' > /sys/devices/system/cpu/cpufreq/policy0/cpuinfo_min_freq;
+echo '1113600' > /sys/devices/system/cpu/cpufreq/policy4/cpuinfo_min_freq;
+echo '902400' > /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq;
+echo '1113600' > /sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq;
+echo '1113600' > /sys/devices/system/cpu/cpufreq/policy0/scaling_setspeed;
+echo '1113600' > /sys/devices/system/cpu/cpufreq/policy4/scaling_setspeed;
